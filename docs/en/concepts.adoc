@@ -3,7 +3,7 @@
 The format describes information displayed on variable message signs (VMS) along roads used for providing
 information and for traffic management. The profile has a static and a dynamic part:
 
-* the static part (format `cz-ndic_d2-vms-table`) describes the basic characteristics of a traffic sign or
+* the static part (format `x-format:cz-ndic_d2-vms-table-v1.3`) describes the basic characteristics of a traffic sign or
   gantry, including the display area configuration, the location and the validity for lanes,
 * the dynamic part (this format) describes the information currently displayed on the individual signs, for
   mobile trailers including changes of the display area configuration and of the trailer location.

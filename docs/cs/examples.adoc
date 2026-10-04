@@ -3,13 +3,13 @@
 Tato příloha popisuje příklady proměnného dopravního značení (VMS) popsaného dynamickou a statickou
 publikací. Každý příklad obsahuje:
 
-* statickou publikaci popisující konfiguraci VMS (formát `cz-ndic_d2-vms-table`, vzorek `static-…`):
+* statickou publikaci popisující konfiguraci VMS (formát `x-format:cz-ndic_d2-vms-table-v1.3`, vzorek `static-…`):
   obrázek s vyznačením popisovaných částí a jejich indexů a popis základního konceptu,
 * jednu či více dynamických publikací (tento formát, vzorky `dynamic-…`) popisujících, co je na VMS
   aktuálně zobrazeno.
 
 Vzorky dynamické publikace jsou součástí balíčku specifikace `{schema-uri}.zip` (adresář `samples`), vzorky
-statické publikace balíčku formátu `cz-ndic_d2-vms-table`.
+statické publikace balíčku formátu `x-format:cz-ndic_d2-vms-table-v1.3`.
 
 === Informační (polo)portál se ZPI
 
@@ -256,4 +256,4 @@ include::{samplesdir}/dynamic-6-prism.xml[tags=**]
 ----
 ====
 
-Další konfigurace řadičů bez vzorku popisuje dokumentace formátu `cz-ndic_d2-vms-table`, příloha Příklady konfigurace značek.
+Další konfigurace řadičů bez vzorku popisuje dokumentace formátu `x-format:cz-ndic_d2-vms-table-v1.3`, příloha Příklady konfigurace značek.

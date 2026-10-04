@@ -163,4 +163,4 @@ include::{samplesdir}/dynamic-5-trailer.xml[tag=location-override,indent=0]
 
 The position on the controller, the validity for lanes, the geographic location of a VMS and the position of
 display areas within a VMS are specified in the documentation of the static publication
-(`cz-ndic_d2-vms-table`).
+(`x-format:cz-ndic_d2-vms-table-v1.3`).

@@ -3,14 +3,14 @@
 This appendix describes examples of variable message signs (VMS) described by the dynamic and the static
 publication. Each example contains:
 
-* the static publication describing the VMS configuration (format `cz-ndic_d2-vms-table`, sample
+* the static publication describing the VMS configuration (format `x-format:cz-ndic_d2-vms-table-v1.3`, sample
   `static-…`): an image marking the described parts and their indexes and a description of the basic
   concept,
 * one or more dynamic publications (this format, samples `dynamic-…`) describing what is currently
   displayed on the VMS.
 
 The samples of the dynamic publication are part of the specification package `{schema-uri}.zip` (folder
-`samples`), the samples of the static publication are part of the `cz-ndic_d2-vms-table` format package.
+`samples`), the samples of the static publication are part of the `x-format:cz-ndic_d2-vms-table-v1.3` format package.
 Displayed texts are given in Czech as in the data, with an English translation.
 
 === Information cantilever or gantry with ZPI
@@ -258,4 +258,4 @@ include::{samplesdir}/dynamic-6-prism.xml[tags=**]
 ----
 ====
 
-Further controller configurations without a sample are described in the documentation of the format `cz-ndic_d2-vms-table`, appendix Examples of sign configurations.
+Further controller configurations without a sample are described in the documentation of the format `x-format:cz-ndic_d2-vms-table-v1.3`, appendix Examples of sign configurations.

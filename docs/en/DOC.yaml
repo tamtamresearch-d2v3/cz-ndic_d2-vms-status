@@ -5,5 +5,5 @@ date: '2026-09-28'
 author:
   name: Petr Bureš
   company: TamTam Research s.r.o.
-perex: 'This document describes the data format used to provide information about the current content of variable message signs (VMS) along roads – fixed signs and gantries as well as mobile trailers: displayed pictograms, texts and supplementary panels, for mobile trailers also the current position and display configuration. The static description of the signs is provided by the format cz-ndic_d2-vms-table, whose table the messages reference. The format is based on the VmsPublication of the DATEX II 3.7 model.'
+perex: 'This document describes the data format used to provide information about the current content of variable message signs (VMS) along roads – fixed signs and gantries as well as mobile trailers: displayed pictograms, texts and supplementary panels, for mobile trailers also the current position and display configuration. The static description of the signs is provided by the format x-format:cz-ndic_d2-vms-table-v1.3, whose table the messages reference. The format is based on the vms:VmsPublication of the DATEX II 3.7 model.'
 keywords: DATEX II, NDIC, VmsPublication

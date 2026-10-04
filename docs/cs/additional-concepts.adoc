@@ -153,5 +153,5 @@ include::{samplesdir}/dynamic-5-trailer.xml[tag=location-override,indent=0]
 ----
 
 Popis umístění na řadiči, platnosti vůči jízdnímu pruhu, geografický popis polohy VMS a umístění
-činných ploch v rámci VMS stanoví dokumentace statické publikace (`cz-ndic_d2-vms-table`).
+činných ploch v rámci VMS stanoví dokumentace statické publikace (`x-format:cz-ndic_d2-vms-table-v1.3`).
 
