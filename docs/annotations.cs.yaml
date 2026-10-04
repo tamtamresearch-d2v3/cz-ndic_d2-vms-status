@@ -129,7 +129,7 @@ TextLine:
 _enum: {}
 NetworkLocation:
   supplementaryPositionalDescription:
-    ndic: Doplňkový popis aktuální polohy VMS na úrovni jízdního pruhu včetně názvu a směru silnice.
+    ndic: Doplňkový popis aktuální polohy VMS na úrovni jízdního pruhu včetně názvu a směru komunikace.
 SupplementaryPositionalDescription:
   positionOnCarriageway:
     card: 1..1

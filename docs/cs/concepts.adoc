@@ -1,6 +1,6 @@
 == Koncepty
 
-Formát popisuje informace zobrazené na proměnném dopravním značení (VMS) podél komunikací za účelem
+Formát popisuje informace zobrazené na proměnných dopravních značkách (VMS) podél komunikací za účelem
 poskytování informací a řízení provozu. Profil má statickou a dynamickou část:
 
 * statická část (formát `x-format:cz-ndic_d2-vms-table-v1.3`) popisuje základní charakteristiky dopravní značky či

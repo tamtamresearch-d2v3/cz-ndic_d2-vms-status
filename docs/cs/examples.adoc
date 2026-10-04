@@ -1,6 +1,6 @@
 == Příklady konfigurace značek
 
-Tato příloha popisuje příklady proměnného dopravního značení (VMS) popsaného dynamickou a statickou
+Tato příloha popisuje příklady proměnných dopravních značek (VMS) popsaných dynamickou a statickou
 publikací. Každý příklad obsahuje:
 
 * statickou publikaci popisující konfiguraci VMS (formát `x-format:cz-ndic_d2-vms-table-v1.3`, vzorek `static-…`):
@@ -23,7 +23,7 @@ image::ex-02.png[Poloportál se ZPI,width=600]
 * vzorek: `static-1-ZPI.xml`
 * koncept:
 ** Řadič VMS (`vms:VmsController`): 1×
-** VMS (`vms:Vms`; `roadsideCantileverMounted`): 1× dynamická značka na poloportálu pro celý jízdní pás [vms:1]
+** VMS (`vms:Vms`; `roadsideCantileverMounted`): 1× proměnná dopravní značka na poloportálu pro celý jízdní pás [vms:1]
 ** Činné plochy (`vms:DisplayArea`): [vms:1] 1× typu piktogram (s implicitní dodatkovou tabulkou) a 1× typu text
 
 ==== Dynamická publikace „práce na silnici“
@@ -99,14 +99,14 @@ image::ex-04.png[Portál liniového řízení,width=600]
 * koncept:
 ** Řadič VMS (`vms:VmsController`): 1×
 ** VMS (`vms:Vms`; `gantryMounted`):
-*** 2× proměnná značka vlevo a vpravo na sloupku pro celý jízdní pás [vms:1,5]
-*** 2× dynamická značka na portálu pro řízení v jízdních pruzích [vms:2,4]
-*** 1× dynamická značka na portálu pro celý jízdní pás [vms:3]
+*** 2× proměnná dopravní značka vlevo a vpravo na sloupku pro celý jízdní pás [vms:1,5]
+*** 2× proměnná dopravní značka na portálu pro řízení v jízdních pruzích [vms:2,4]
+*** 1× proměnná dopravní značka na portálu pro celý jízdní pás [vms:3]
 ** Činné plochy (`vms:DisplayArea`):
 *** [vms:1,5] 1× typu piktogram
 *** [vms:2,3,4] 1× typu piktogram (s implicitní dodatkovou tabulkou)
 
-==== Dynamická publikace „omezení rychlosti, výstraha, řaď se vpravo“
+==== Dynamická publikace „nejvyšší dovolená rychlost, výstraha, řaď se vpravo“
 
 Ukázkový stav (portál liniového řízení zatím NDIC nepublikuje): „100 km/h“; „řaď se vpravo“; „pozor“;
 „prázdné“; „100 km/h“.
@@ -122,7 +122,7 @@ include::{samplesdir}/dynamic-2-LM.xml[tags=**]
 
 === ZPI teploměr
 
-Proměnná značka podél pozemní komunikace zobrazující teplotu vzduchu a vozovky.
+Proměnná dopravní značka podél pozemní komunikace zobrazující teplotu vzduchu a vozovky.
 
 ==== Statická publikace
 
@@ -131,7 +131,7 @@ image::ex-05.png[ZPI teploměr,width=600]
 * vzorek: `static-3-meteo.xml`
 * koncept:
 ** Řadič VMS (`vms:VmsController`): 1×
-** VMS (`vms:Vms`; `roadsideMounted`): 1× dynamická značka vpravo pro zobrazení teploty [vms:1]
+** VMS (`vms:Vms`; `roadsideMounted`): 1× proměnná dopravní značka vpravo pro zobrazení teploty [vms:1]
 ** Činné plochy (`vms:DisplayArea`): [vms:1] 1× typu text se 2 řádky (1. řádek teplota okolí, 2. řádek teplota vozovky)
 
 ==== Dynamická publikace „normální teploty“
@@ -149,7 +149,7 @@ include::{samplesdir}/dynamic-3-meteo.xml[tags=**]
 
 === Značka s obsazeností parkoviště
 
-Proměnná značka podél pozemní komunikace zobrazující počet volných míst na parkovišti.
+Proměnná dopravní značka podél pozemní komunikace zobrazující počet volných míst na parkovišti.
 
 ==== Statická publikace
 
@@ -159,7 +159,7 @@ image:ex-07.png[Detail značky,width=140]
 * vzorky: `static-4-parking.xml`, `static-4-parking_full.xml`
 * koncept:
 ** Řadič VMS (`vms:VmsController`): 1×
-** VMS (`vms:Vms`; `roadsideMounted`): 1× dynamická značka pro zobrazení obsazenosti parkovišť [vms:1]
+** VMS (`vms:Vms`; `roadsideMounted`): 1× proměnná dopravní značka pro zobrazení obsazenosti parkovišť [vms:1]
 ** Činné plochy (`vms:DisplayArea`): [vms:1] 1× typu text s 1–2 řádky (1. řádek bližší, 2. řádek vzdálenější parkoviště)
 
 ==== Dynamická publikace „volná místa“
@@ -187,7 +187,7 @@ include::{samplesdir}/dynamic-4-parking_full.xml[tags=**]
 
 === Mobilní vozík
 
-Mobilní VMS na vozíku umístěném na krajnici.
+Mobilní VMS na vozíku umístěném na zpevněné krajnici.
 
 ==== Statická publikace
 
@@ -197,7 +197,7 @@ image:ex-09.png[Konfigurace vozíku (ilustrační),width=360]
 * vzorek: `static-5-trailer.xml`
 * koncept (bez polohy – poloha je v dynamické publikaci):
 ** Řadič VMS (`vms:VmsController`): 1×
-** VMS (`vms:Vms`; `trailerMounted`): 1× dynamická značka na vozíku [vms:1]
+** VMS (`vms:Vms`; `trailerMounted`): 1× proměnná dopravní značka na vozíku [vms:1]
 ** Činné plochy (`vms:DisplayArea`): [vms:1] 1× typu text s 1 řádkem, 1× typu piktogram a 1× typu text se 4 řádky
 
 ==== Dynamická publikace „stavební práce“
